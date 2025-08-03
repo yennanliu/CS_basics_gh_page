@@ -2,7 +2,7 @@
 
 Welcome to my collection of essential Computer Science notes, algorithms, and coding patterns — neatly organized and deployable via GitHub Pages. Each `.md` file in this repo has its own standalone **HTML page** that you can browse online ✨
 
-> 🖥️ **Live site:** [https://yennj12.js.org/CS_basics_gh_page](https://yennj12.js.org/CS_basics_gh_page)
+> 🖥️ **Live site:** [https://yennj12.js.org/CS_basics_gh_page/index](https://yennj12.js.org/CS_basics_gh_page/index)
 
 ## 📊 Quick Stats
 - **50+** Topics covered

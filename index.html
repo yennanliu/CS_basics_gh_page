@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Basics Reference Notes</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fafafa;
+            color: #333;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+        
+        .header p {
+            margin: 10px 0 0 0;
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .section {
+            background: white;
+            margin: 30px 0;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            color: #4a5568;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .link-item {
+            display: block;
+            padding: 15px 20px;
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #4a5568;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        
+        .link-item:hover {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        }
+        
+        .emoji {
+            margin-right: 8px;
+            font-size: 1.2em;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 30px;
+            background: #2d3748;
+            color: white;
+            border-radius: 12px;
+        }
+        
+        .footer p {
+            margin: 10px 0;
+        }
+        
+        .footer a {
+            color: #81e6d9;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        
+        .stat-item {
+            text-align: center;
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 8px;
+            min-width: 120px;
+        }
+        
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #81e6d9;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🚀 CS Basics Reference Notes</h1>
+        <p>Essential Computer Science algorithms, data structures, and coding patterns</p>
+        <div class="stats">
+            <div class="stat-item">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Topics</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">8</div>
+                <div class="stat-label">Categories</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><span class="emoji">🧠</span>General</h2>
+        <div class="links-grid">
+            <a href="code_interview_general_cheatsheet" class="link-item">
+                <span class="emoji">📋</span>Code Interview Cheatsheet
+            </a>
+            <a href="python_trick" class="link-item">
+                <span class="emoji">🐍</span>Python Tricks
+            </a>
+            <a href="java_trick" class="link-item">
+                <span class="emoji">☕</span>Java Tricks
+            </a>
+            <a href="math" class="link-item">
+                <span class="emoji">🧮</span>Math
+            </a>
+            <a href="design" class="link-item">
+                <span class="emoji">🏗️</span>Design Patterns
+            </a>
+            <a href="strategy" class="link-item">
+                <span class="emoji">🎯</span>Strategy
+            </a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><span class="emoji">🔁</span>Data Structures</h2>
+        <div class="links-grid">
+            <a href="array" class="link-item">
+                <span class="emoji">📊</span>Array
+            </a>
+            <a href="prefix_sum" class="link-item">
+                <span class="emoji">➕</span>Prefix Sum
+            </a>
+            <a href="difference_array" class="link-item">
+                <span class="emoji">➖</span>Difference Array
+            </a>
+            <a href="linked_list" class="link-item">
+                <span class="emoji">🔗</span>Linked List
+            </a>
+            <a href="tree" class="link-item">
+                <span class="emoji">🌳</span>Tree
+            </a>
+            <a href="binary_tree" class="link-item">
+                <span class="emoji">🌲</span>Binary Tree
+            </a>
+            <a href="bst" class="link-item">
+                <span class="emoji">🔍</span>BST
+            </a>
+            <a href="trie" class="link-item">
+                <span class="emoji">🔤</span>Trie
+            </a>
+            <a href="heap" class="link-item">
+                <span class="emoji">⛰️</span>Heap
+            </a>
+            <a href="queue" class="link-item">
+                <span class="emoji">🚶</span>Queue
+            </a>
+            <a href="stack" class="link-item">
+                <span class="emoji">📚</span>Stack
+            </a>
+            <a href="set" class="link-item">
+                <span class="emoji">🎭</span>Set
+            </a>
+            <a href="hash_map" class="link-item">
+                <span class="emoji">🗂️</span>Hash Map
+            </a>
+            <a href="priority_queue" class="link-item">
+                <span class="emoji">🏆</span>Priority Queue
+            </a>
+            <a href="iterator" class="link-item">
+                <span class="emoji">🔄</span>Iterator
+            </a>
+            <a href="collection" class="link-item">
+                <span class="emoji">📦</span>Collection
+            </a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><span class="emoji">📐</span>Algorithms</h2>
+        <div class="links-grid">
+            <a href="binary_search" class="link-item">
+                <span class="emoji">🔍</span>Binary Search
+            </a>
+            <a href="bit_manipulation" class="link-item">
+                <span class="emoji">0️⃣1️⃣</span>Bit Manipulation
+            </a>
+            <a href="sliding_window" class="link-item">
+                <span class="emoji">🪟</span>Sliding Window
+            </a>
+            <a href="2_pointers" class="link-item">
+                <span class="emoji">👉👈</span>2 Pointers
+            </a>
+            <a href="2_pointers_linkedlist" class="link-item">
+                <span class="emoji">🔗👉</span>2 Pointers + Linked List
+            </a>
+            <a href="backtrack" class="link-item">
+                <span class="emoji">🔙</span>Backtracking
+            </a>
+            <a href="recursion" class="link-item">
+                <span class="emoji">🪃</span>Recursion
+            </a>
+            <a href="recursion_and_dp" class="link-item">
+                <span class="emoji">🪃💎</span>Recursion + DP
+            </a>
+            <a href="dp" class="link-item">
+                <span class="emoji">💎</span>DP Basics
+            </a>
+            <a href="dp_pattern" class="link-item">
+                <span class="emoji">🎨</span>DP Patterns
+            </a>
+            <a href="kadane_algo" class="link-item">
+                <span class="emoji">📈</span>Kadane's Algorithm
+            </a>
+            <a href="greedy" class="link-item">
+                <span class="emoji">🤑</span>Greedy
+            </a>
+            <a href="sort" class="link-item">
+                <span class="emoji">🔢</span>Sorting
+            </a>
+            <a href="palindrome" class="link-item">
+                <span class="emoji">🪞</span>Palindrome
+            </a>
+            <a href="add_x_sum" class="link-item">
+                <span class="emoji">➕</span>Add X Sum
+            </a>
+            <a href="n_sum" class="link-item">
+                <span class="emoji">🔢➕</span>N-Sum
+            </a>
+            <a href="array_overlap_explaination" class="link-item">
+                <span class="emoji">📊🔄</span>Array Overlap
+            </a>
+            <a href="matrix" class="link-item">
+                <span class="emoji">⬜</span>Matrix
+            </a>
+            <a href="scanning_line" class="link-item">
+                <span class="emoji">📏</span>Scanning Line
+            </a>
+            <a href="monotonic_stack" class="link-item">
+                <span class="emoji">📚📈</span>Monotonic Stack
+            </a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><span class="emoji">🌉</span>Graph & Tree</h2>
+        <div class="links-grid">
+            <a href="graph" class="link-item">
+                <span class="emoji">🕸️</span>Graph Basics
+            </a>
+            <a href="dfs" class="link-item">
+                <span class="emoji">🏊‍♂️</span>DFS
+            </a>
+            <a href="bfs" class="link-item">
+                <span class="emoji">🌊</span>BFS
+            </a>
+            <a href="Dijkstra" class="link-item">
+                <span class="emoji">🛣️</span>Dijkstra
+            </a>
+            <a href="union_find" class="link-item">
+                <span class="emoji">🤝</span>Union Find
+            </a>
+            <a href="quick_find" class="link-item">
+                <span class="emoji">⚡</span>Quick Find
+            </a>
+            <a href="diff_toposort_quickunion" class="link-item">
+                <span class="emoji">⚖️</span>Diff: Toposort vs Quick Union
+            </a>
+            <a href="topology_sorting" class="link-item">
+                <span class="emoji">📊</span>Topology Sorting
+            </a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><span class="emoji">🔡</span>Strings</h2>
+        <div class="links-grid">
+            <a href="string" class="link-item">
+                <span class="emoji">📝</span>String Handling
+            </a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><span class="emoji">🧰</span>Specialized Algorithms</h2>
+        <div class="links-grid">
+            <a href="binary_indexed_tree" class="link-item">
+                <span class="emoji">🌲📊</span>Binary Indexed Tree
+            </a>
+            <a href="intervals" class="link-item">
+                <span class="emoji">📏</span>Intervals
+            </a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><span class="emoji">📄</span>Template</h2>
+        <div class="links-grid">
+            <a href="00_template" class="link-item">
+                <span class="emoji">📋</span>Template
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h3>✨ How It Works</h3>
+        <p>All markdown files are auto-converted to HTML via GitHub Actions and published to GitHub Pages.</p>
+        
+        <p><strong>To deploy your own version:</strong></p>
+        <p>1. Fork this repo<br>
+        2. Push <code>.md</code> files to the root folder<br>
+        3. GitHub Actions will deploy automatically to <code>https://&lt;yourname&gt;.github.io/&lt;reponame&gt;/</code></p>
+        
+        <p style="margin-top: 30px;">
+            <a href="https://github.com/yennanliu/CS_basics_gh_page">📚 View on GitHub</a> | 
+            <a href="https://yennj12.js.org/CS_basics_gh_page">🌐 Live Site</a>
+        </p>
+        
+        <p style="margin-top: 20px; font-size: 1.2em;">Enjoy coding! 🎉</p>
+    </div>
+</body>
+</html>
